@@ -1,0 +1,38 @@
+.container {
+    max-width: full;
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .container a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  .container a:hover {
+    color: #23527c;
+  }
+  
+  .container ul li:last-child {
+    margin-right: 0;
+  }

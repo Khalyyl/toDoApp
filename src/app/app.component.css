@@ -1,0 +1,17 @@
+/* app.component.css */
+
+/* Style du header */
+.app-header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Style du titre */
+.app-header h1 {
+  font-size: 2rem;
+  margin: 0;
+}

@@ -1,0 +1,11 @@
+<div class="task-item" [class.completed]="task.completed"
+[style]="{ backgroundColor: task.completed ? '#f0f0f0' : 'white' }"
+ appHoverHighlight
+ >
+
+    <span (click)="toggle.emit()">{{ task.text | taskStatus : task.completed }}</span>
+    
+    <button (click)="remove.emit()">Supprimer</button>
+
+    
+</div>

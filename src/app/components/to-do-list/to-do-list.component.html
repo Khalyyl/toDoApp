@@ -1,0 +1,29 @@
+<div class="todo-container">
+    <div class="todo-input">
+        <input [(ngModel)]="newTask" placeholder="Add New Task" (keydown.enter)="addTask()">
+        <button class="add-button" (click)="addTask()">Add</button>
+        <table>
+            <tbody>    
+                                @for (task of tasks; track $index) {
+                                    <tr>
+                                        <td>
+                                            <app-to-do-item 
+                                            [task]="task"
+                                             (remove)="removeTask($index)" 
+                                             (toggle)="toggleCompletion($index)">
+                                            </app-to-do-item>
+                                        </td>
+                                    </tr>
+                                    
+                                }
+                                @empty {
+                                    <tr>
+                                        <td >No tasks</td>
+                                    </tr>
+                                }
+            </tbody>
+        </table>
+
+    </div>
+
+</div>

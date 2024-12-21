@@ -1,0 +1,50 @@
+.todo-input input {
+    width: 70%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-button {
+    width: 7%;
+    height: 62px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .app-to-do-item .task-text {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  td {
+    background-color: #fff;
+    text-align: left;
+  }
+  
+  td:last-child {
+    text-align: left;
+  }
